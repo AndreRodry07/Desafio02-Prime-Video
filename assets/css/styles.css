@@ -1,0 +1,154 @@
+/* Importa fontes da Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+/* Reset para margens e preenchimentos padrão em todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Configurações adicionais para o elemento HTML */
+html {
+    font-size: 1rem;
+}
+
+/* Configurações adicionais para o elemento BODY */
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 6rem;
+    padding: 2rem 0;
+}
+
+/* Estilo da lista de menu no cabeçalho */
+.menu-list {
+    text-align: center;
+    line-height: 2rem;
+}
+
+/* Estilo dos itens do menu */
+.menu-item {
+    display: inline-block;
+}
+
+/* Estilo dos links do menu */
+.menu-item a {
+    padding: 3rem;
+    color: #ffffff;
+}
+
+/* Estilo dos links do menu ao passar o mouse sobre eles */
+.menu-item a:hover {
+    color: #aedefc;
+}
+
+/* MAIN */
+
+/* Estilo do banner */
+.banner {
+    background-color: #1998ff;
+}
+
+/* Estilo da imagem no banner */
+.img-banner {
+    width: 100%;
+    margin-left: 0.6rem;
+    padding: 0 6rem;
+}
+
+/* Estilo dos carrosséis primário e secundário */
+.carousel-primary, .carousel-secondary {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo das figures do carrossel */
+.carousel-figure {
+    display: inline-block;
+    width: 18%;
+    padding: 1rem;
+}
+
+/* Estilo das imagens nas figures do carrossel */
+.carousel-figure img {
+    width: 100%;
+    height: auto;
+    border: 0.3rem solid #000000;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/* Estilo das imagens no carrossel ao passar o mouse sobre elas */
+.carousel-figure:hover img {
+    border: 0.3rem solid #1998ff;
+}
+
+/* Remove as bordas das setas ao passar o mouse sobre elas */
+.carousel-arrow:hover img {
+    border: none;
+}
+
+/* Estilo da legenda das imagens no carrossel */
+.carousel-caption {
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Estilo da legenda no carrossel ao passar o mouse sobre a figure */
+.carousel-figure:hover .carousel-caption {
+    color: #1998ff;
+}
+
+/* Estilo das setas no carrossel */
+.carousel-arrow img {
+    width: 16%;
+    margin: 12rem 0;
+    border: none;
+}
+
+/* FOOTER */
+
+/* Estilo do rodapé */
+footer {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 8rem;
+    margin-top: 4rem;
+}
+
+/* Estilo da lista de links sociais no rodapé */
+.social-links li {
+    display: inline-block;
+    line-height: 4rem;
+    margin-top: 1.2rem;
+}
+
+/* Estilo do texto nos links sociais */
+.social-links p {
+    color: #ffffff;
+    margin: 0 25rem 0 2rem;
+}
+
+/* Estilo do texto nos links sociais ao passar o mouse sobre eles */
+.social-links p:hover {
+    color: #aedefc;
+}
+
+/* Tamanho das imagens nos links sociais */
+.social-links img {
+    width: 60%;
+}
